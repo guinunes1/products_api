@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "e121e436-6a04-42c4-b27a-4452ae024719",
+		"name": "Products api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "18693054"
+	},
+	"item": [
+		{
+			"name": "List All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/products"
+			},
+			"response": []
+		},
+		{
+			"name": "List Whit Params",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/products?category=vehicle",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "vehicle"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
